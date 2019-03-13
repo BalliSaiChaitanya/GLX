@@ -1,0 +1,67 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="sllstyle.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+<title>Sell</title>
+</head>
+
+<body>
+<ul class="main-nav">
+<li><a href="index.html"> HOME </a></li>
+<li><a href="sell.html"> SELL </a></li>
+<li><a href=""> ABOUT-US </a></li>
+</ul>
+
+<div class="main">
+<form action="post">
+    <table align=center>
+    <td>Your Name</td>
+    <td><input class="uname" type="text" name="uname" required>
+    </td><tr>
+    <td>Pin Number</td>
+    <td><input class="pin" type="number" name="pin" required>
+    </td><tr>
+    <td>Mobile Number</td>
+    <td><input class="mobile" type="number" name="mobile" required>
+    </td><tr>
+    <td>Email</td>
+    <td><input class="email" type="email" name="email" required>
+    </td><tr>
+    <td>Product Name</td>
+    <td><input class="ptype" type="text" name="ptype" required>
+    </td><tr>
+    <td>Model Number</td>
+    <td><input class="mno" type="text" name="mno" required>
+    </td><tr>
+    <tr><td>Product Type</td>
+    <td>
+        <select name="ptype" form="carform" required>
+         <option value="book">Book</option>
+         <option value="mob">Mobile</option>
+         <option value="lp">Laptop</option>
+         <option value="eg">Electronic-Gadget</option>
+         <option value="others">others</option>
+        </select>
+    </td></tr>
+    <td>Concdition</td>
+    <td>
+            <input type="radio" name="cond" value="new" checked> New<br>
+            <input type="radio" name="cond" value="exl"> Excellent<br>
+            <input type="radio" name="cond" value="good"> Good<br>
+            <input type="radio" name="cond" value="old"> Old
+    </td></tr>
+    <td>Selling Price</td>
+    <td><input class="sp" type="text" name="price" required></td>
+    <tr>
+    <td>
+        <input type="submit" value="Submit">
+    </td>
+    <tr>
+    </table>
+</form>
+</div>
+
+</body>
+
+</html>
